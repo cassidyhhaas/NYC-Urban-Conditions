@@ -1,4 +1,5 @@
-What's your Problem? - An Analysis of Urban Conditions in New York
+# What's your Problem? - An Analysis of Urban Conditions in New York
+
 By Cassidy Haas, Chelsea Chandler, Annika Muehlbrad, and Bryce Wilson
 
 
@@ -18,6 +19,3 @@ subsets_work: Contains all work pertinent to subsets analysis. Specifically, it 
 Zipshape: Contains shapefiles used to create spacial distribution visualizations by New York City zipcode.
 
 Base Level Directory: Contains all of the scripts for loading the data into MongoDB and performing data preprocessing, namely filling in missing values, removing tuples, and removing attributes. It also contains spatial distribution visualization scripts and some preliminary visualizations.
-
-
-# NYC-Urban-Conditions
