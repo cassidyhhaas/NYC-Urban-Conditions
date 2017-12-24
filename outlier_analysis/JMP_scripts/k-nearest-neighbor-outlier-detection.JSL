@@ -1,0 +1,7 @@
+## Script for k-nearest neighbor outlier detection
+
+Explore Outliers(
+	Y( :Created Date ),
+	Name( "Multivariate k-Nearest Neighbor Outliers" )(K( 10 )),
+	Where( :Complaint Type == "Noise" )
+)

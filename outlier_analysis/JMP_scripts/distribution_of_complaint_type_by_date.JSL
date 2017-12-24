@@ -1,0 +1,11 @@
+## Script for creating distribution of complaint type by date
+
+Distribution(
+	Continuous Distribution(
+		Column( :Created Date ),
+		Horizontal Layout( 1 ),
+		Vertical( 0 ),
+		Outlier Box Plot( 0 )
+	),
+	Nominal Distribution( Column( :Complaint Type ), Order By( "Count Ascending" ) )
+)

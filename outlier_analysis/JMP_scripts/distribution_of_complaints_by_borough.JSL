@@ -1,0 +1,10 @@
+## Script for creating distribution of complaints by borough
+
+Distribution(
+	Nominal Distribution( Column( :Complaint Type ) ),
+	Nominal Distribution(
+		Column( :Borough ),
+		Horizontal Layout( 1 ),
+		Vertical( 0 )
+	)
+)
